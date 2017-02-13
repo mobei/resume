@@ -92,8 +92,7 @@ class App extends Component {
               <Card title="基本信息" className="to-bottom personal-card">
                 <p><Icon type="user" />&nbsp;&nbsp;连海云/男/本科</p>
                 <p><Icon type="phone" />&nbsp;&nbsp;18310673100</p>
-                <p><Icon type="mail" />&nbsp;&nbsp;lianhaiyun@gmail.com</p>
-                <p className="github"><Icon type="github" />&nbsp;&nbsp;<a target="_blank" href="https://github.com/mobei">https://github.com/mobei</a></p>
+                <p className="github"><Icon type="mail" />&nbsp;&nbsp;lianhaiyun@gmail.com</p>
 
                 <p>投递职位：Web前端工程师</p>
                 <p>工作经验：3年</p>
