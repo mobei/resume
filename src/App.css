@@ -1,24 +1,121 @@
 .App {
-  text-align: center;
+    /*text-align: center;*/
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App .container {
+    padding: 15px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.App .container .hide {
+    display: none;
 }
 
-.App-intro {
-  font-size: large;
+.App .container .to-bottom {
+    margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App .container .card-skill .ant-progress {
+    margin-bottom: 10px;
+}
+
+.App .container .card-skill .skill-js .ant-progress-bg {
+    background-color: #faedaa;
+}
+
+.App .container .card-skill .skill-html .ant-progress-bg {
+    background-color: #f29e89;
+}
+
+.App .container .card-skill .skill-css .ant-progress-bg {
+    background-color: #80c3f5;
+}
+
+.App .container .card-skill .skill-jquery .ant-progress-bg {
+    background-color: #ee95ba;
+}
+
+.App .container .card-skill .skill-ember .ant-progress-bg {
+    background-color: #f1f9b0;
+}
+
+.App .container .card-skill .skill-react .ant-progress-bg {
+    background-color: #aefdd9;
+}
+
+.App .container .card-skill .skill-git .ant-progress-bg {
+    background-color: #b5b0af;
+}
+
+.App .container .card-skill .skill-gulp .ant-progress-bg {
+    background-color: #d799f7;
+}
+
+.App .container .card-skill .skill-webpack .ant-progress-bg {
+    background-color: #8b98d3;
+}
+
+.App .container .card-skill .skill-nginx .ant-progress-bg {
+    background-color: #f2dda1;
+}
+
+.App .container .card-skill .skill-node .ant-progress-bg {
+    background-color: #c0eaab;
+}
+
+.App .container .card-skill .skill-python .ant-progress-bg {
+    background-color: #a3ddf2;
+}
+
+.App .container .ant-tag {
+    margin: 8px;
+}
+
+.App .container .ex-header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.App .container .proj {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    border-bottom: 1px #ddd dotted;
+}
+
+@import '~antd/dist/antd.css';
+
+.App .container .proj .proj-line span {
+    font-weight: bold;
+    color: #000;
+}
+
+.App .container .proj .proj-line {
+    margin-top: 5px;
+}
+
+.App .container .personal-card {
+    font-size: 13px;
+}
+
+.App .container .personal-card p {
+    margin-bottom: 10px;
+}
+
+.App .container .personal-card .anticon-pushpin-o {
+    font-size: 14px;
+    color: #00A854;
+}
+
+.App .container .personal-card .github {
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 10px;
+}
+
+.App .resume-header h1{
+	text-align: center;
+}
+
+.App .resume-header .right{
+	text-align: right;
 }
