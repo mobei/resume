@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <Row type="flex" justify="center" gutter={24} className="to-bottom">
-            <Col className="resume-header" span={23}>
+            <Col className="resume-header" span={22}>
               <h1>简&nbsp;&nbsp;历</h1>
               <div className="right">姓名：连海云&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：18310673100</div>
             </Col>
@@ -91,7 +91,7 @@ class App extends Component {
                 </Timeline>
               </Card>
             </Col>
-            <Col span={9}>
+            <Col span={8}>
               <Card title="基本信息" className="to-bottom personal-card">
                 <p><Icon type="user" />&nbsp;&nbsp;连海云/男/本科</p>
                 <p><Icon type="phone" />&nbsp;&nbsp;18310673100</p>
