@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <Row type="flex" justify="center" gutter={24} className="to-bottom">
-            <Col className="resume-header" span={22}>
+            <Col className="resume-header" span={23}>
               <h1>简&nbsp;&nbsp;历</h1>
               <div className="right">姓名：连海云&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：18310673100</div>
             </Col>
@@ -22,22 +22,18 @@ class App extends Component {
           <Row type="flex" justify="center" gutter={24}>
             <Col span={14}>
               <Card title="个人简介" className="to-bottom personal-card">
-                <p><Icon type="pushpin-o" />&nbsp;&nbsp;喜欢Web开发，三年Web前端工作经验，有已上线的大型项目开发经验，有过部分H5开发经验。</p>
-                <p><Icon type="pushpin-o" />&nbsp;&nbsp;熟练掌握JavaScript，HTML，CSS技术，熟练ES2015，熟练EmberJs框架，喜欢接触新技术，对React，Webpack，yarn等较新的技术比较熟悉。</p>
-                <p><Icon type="pushpin-o" />&nbsp;&nbsp;熟练使用Git，熟练Linux，熟悉Nginx服务器，对NodeJs，Python等后端技术有一定了解。</p>
+                <p><Icon type="pushpin-o" />&nbsp;&nbsp;喜欢Web开发，三年Web前端工作经验，有已上线的大型项目开发经验，有H5开发经验。</p>
+                <p><Icon type="pushpin-o" />&nbsp;&nbsp;熟练掌握JavaScript，HTML，CSS技术，熟练ES2015，熟练EmberJs框架，熟悉React、Redux、Webpack，喜欢接触新技术。</p>
+                <p><Icon type="pushpin-o" />&nbsp;&nbsp;熟练使用Git，熟练Linux，熟悉Nginx服务器，有NodeJs项目开发经验，对后端技术有一定了解。</p>
                 <p><Icon type="pushpin-o" />&nbsp;&nbsp;工作认真负责，有良好的编程习惯，性格开朗，有较强的学习能力、沟通能力和逻辑思维能力。</p>
-                <p><Icon type="pushpin-o" />&nbsp;&nbsp;在Udesk公司担任前端工程师2年，期间主要负责IM系统的开发和维护，已投入生产使用，目前已有大量客户。</p>
+                <p><Icon type="pushpin-o" />&nbsp;&nbsp;有企业服务系统开发经验，负责过复杂业务逻辑的即时通讯（IM）系统。有丰富的跨浏览器开发经验</p>
               </Card>
               <Card title="工作/项目经历">
-                <Timeline pending="至今">
+                <Timeline.Item>
+                  至今
+                </Timeline.Item>
+                <Timeline>
                     <Timeline.Item color="red">
-                      <div className="ex-header">2014-4 / 天津皖通科技</div>
-                      <div className="proj">
-                        <p className="proj-line proj-name"><span>项目名称：</span>梅江国际艺术馆官网</p>
-                        <p className="proj-line proj-content"><span>项目内容：</span>为天津梅江国际艺术馆开发的内容管理系统（CMS），同时负责前后端工作，网站地址：<a target="_blank" href="http://www.mj-arts.com/">http://www.mj-arts.com/</a></p>
-                      </div>
-                    </Timeline.Item>
-                    <Timeline.Item color="green">
                       <div className="ex-header">2015-3 / Udesk（北京沃丰时代数据科技有限公司）</div>
                       <div className="proj">
                         <p className="proj-line proj-name"><span>项目名称：</span>智能客服系统/即时通讯系统（IM）/客服端</p>
@@ -85,10 +81,17 @@ class App extends Component {
                         </p>
                       </div>
                     </Timeline.Item>
+                    <Timeline.Item color="green">
+                      <div className="ex-header">2014-4 / 天津皖通科技</div>
+                      <div className="proj">
+                        <p className="proj-line proj-name"><span>项目名称：</span>梅江国际艺术馆官网</p>
+                        <p className="proj-line proj-content"><span>项目内容：</span>为天津梅江国际艺术馆开发的内容管理系统（CMS），同时负责前后端工作，网站地址：<a target="_blank" href="http://www.mj-arts.com/">http://www.mj-arts.com/</a></p>
+                      </div>
+                    </Timeline.Item>
                 </Timeline>
               </Card>
             </Col>
-            <Col span={8}>
+            <Col span={9}>
               <Card title="基本信息" className="to-bottom personal-card">
                 <p><Icon type="user" />&nbsp;&nbsp;连海云/男/本科</p>
                 <p><Icon type="phone" />&nbsp;&nbsp;18310673100</p>
