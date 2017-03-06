@@ -20,13 +20,13 @@ class App extends Component {
             </Col>
           </Row>
           <Row type="flex" justify="center" gutter={24}>
-            <Col span={14}>
+            <Col span={15}>
               <Card title="个人简介" className="to-bottom personal-card">
-                <p><Icon type="pushpin-o" />&nbsp;&nbsp;有丰富Web项目开发经验；有企业服务系统（SaaS）开发经验；独立负责过公司项目的构建、开发、维护。</p>
+                <p><Icon type="pushpin-o" />&nbsp;&nbsp;有丰富Web项目开发经验；有企业服务系统（SaaS）开发经验；可独立负责公司项目的构建、开发、维护。</p>
                 <p><Icon type="pushpin-o" />&nbsp;&nbsp;有丰富EmberJs项目开发经验、跨浏览器开发经验；有跨终端开发经验。</p>
                 <p><Icon type="pushpin-o" />&nbsp;&nbsp;熟练掌握JavaScript，HTML5，CSS3，Ajax，WebSocket等前端技术；熟练ES2015、React、Redux。</p>
                 <p><Icon type="pushpin-o" />&nbsp;&nbsp;熟练使用Linux系统、Git；熟练Gulp、Webpack等构建工具；熟悉NodeJs。</p>
-                <p><Icon type="pushpin-o" />&nbsp;&nbsp;工作认真负责，能快速解决问题，善于沟通，学习能力强。</p>
+                <p><Icon type="pushpin-o" />&nbsp;&nbsp;工作认真负责，能快速解决问题；善于沟通；学习、抗压能力强。</p>
               </Card>
               <Card title="工作/项目经历">
                 <Timeline pending={<span>至今</span>}>
@@ -86,7 +86,7 @@ class App extends Component {
                 </Timeline>
               </Card>
             </Col>
-            <Col span={8}>
+            <Col span={9}>
               <Card title="基本信息" className="to-bottom personal-card">
                 <p><Icon type="user" />&nbsp;&nbsp;连海云/男/本科</p>
                 <p><Icon type="phone" />&nbsp;&nbsp;18310673100</p>

@@ -85,7 +85,6 @@
 }
 
 @import '~antd/dist/antd.css';
-
 .App .container .proj .proj-line span {
     font-weight: 400;
     color: #000;
@@ -98,6 +97,7 @@
 .App .container .personal-card {
     /*font-size: 13px;*/
     font-size: 15px;
+    font-family: sans-serif;
 }
 
 .App .container .personal-card p {
@@ -114,10 +114,10 @@
     padding-bottom: 10px;
 }
 
-.App .resume-header h1{
-	text-align: center;
+.App .resume-header h1 {
+    text-align: center;
 }
 
-.App .resume-header .right{
-	text-align: right;
+.App .resume-header .right {
+    text-align: right;
 }
