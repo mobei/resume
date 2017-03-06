@@ -71,7 +71,7 @@
 }
 
 .App .container .ex-header {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -79,14 +79,15 @@
 .App .container .proj {
     margin-top: 15px;
     padding-bottom: 15px;
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 15px;
     border-bottom: 1px #ddd dotted;
 }
 
 @import '~antd/dist/antd.css';
 
 .App .container .proj .proj-line span {
-    font-weight: bold;
+    font-weight: 400;
     color: #000;
 }
 
@@ -95,7 +96,8 @@
 }
 
 .App .container .personal-card {
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 15px;
 }
 
 .App .container .personal-card p {
@@ -103,7 +105,7 @@
 }
 
 .App .container .personal-card .anticon-pushpin-o {
-    font-size: 14px;
+    font-size: 15px;
     color: #00A854;
 }
 
