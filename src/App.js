@@ -20,7 +20,7 @@ class App extends Component {
             </Col>
           </Row>
           <Row type="flex" justify="center" gutter={24}>
-            <Col span={15}>
+            <Col span={14}>
               <Card title="个人简介" className="to-bottom personal-card">
                 <p><Icon type="pushpin-o" />&nbsp;&nbsp;有丰富Web项目开发经验；有企业服务系统（SaaS）开发经验；可独立负责公司项目的构建、开发、维护。</p>
                 <p><Icon type="pushpin-o" />&nbsp;&nbsp;有丰富EmberJs项目开发经验、跨浏览器开发经验；有跨终端开发经验。</p>
@@ -86,7 +86,7 @@ class App extends Component {
                 </Timeline>
               </Card>
             </Col>
-            <Col span={9}>
+            <Col span={8}>
               <Card title="基本信息" className="to-bottom personal-card">
                 <p><Icon type="user" />&nbsp;&nbsp;连海云/男/本科</p>
                 <p><Icon type="phone" />&nbsp;&nbsp;18310673100</p>
