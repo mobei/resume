@@ -95,7 +95,7 @@ class App extends Component {
                 <p>投递职位：Web前端工程师</p>
                 <p>工作经验：3年</p>
                 <p>毕业院校：天津工业大学</p>
-                <p>专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业：软件工程</p>
+                <p>专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业：计算机</p>
                 <p>在线简历：<a target="_blank" href="http://www.mobei.website/resume">http://www.mobei.website/resume</a></p>
               </Card>
               <Card title="专业技能" className="card-skill to-bottom">
